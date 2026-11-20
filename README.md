@@ -30,5 +30,21 @@ git clone https://github.com/Deva11-mahadev/Netflix_Data_Project_Analytics.git
 
 **Step 4: Explore the Power BI Dashboard**
 
-Open Netflix Data Analysis Project.pbix in Power BI Desktop to explore the visuals and filters.
+* Open Netflix Data Analysis Project.pbix in Power BI Desktop to explore the visuals and filters.
 
+**Step 5:Review Report & Presentation**
+
+ * Refer to the Netflix Customer & Content Data Analysis.pdf for a detailed summary of findings and strategic business recommendations.
+ * Build presentation deck using Canva.
+
+## 📜 License
+
+This project is licensed under the **MIT License** — feel free to fork, star, and use it for your learning or portfolio purposes.
+
+## 👨‍💻 Author
+
+
+
+Skills: Python | SQL | Power BI | Excel | Data Analysis | EDA
+
+⭐ If you find this project interesting, feel free to explore the repository!
