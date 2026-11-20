@@ -21,3 +21,14 @@ git clone https://github.com/Deva11-mahadev/Netflix_Data_Project_Analytics.git
    * Data Import & Inspection (info(), describe())
    * Data Cleaning & Handling Missing Values
    * Feature Engineering and exploratory data analysis.
+ 
+**Step 3: Load Data into SQL Database**
+
+* Import Netflix_Clean_Project.csv into your SQL database (MySQL / PostgreSQL / SQL Server).
+
+* Execute the queries provided in Netflix Customer.sql.
+
+**Step 4: Explore the Power BI Dashboard**
+
+Open Netflix Data Analysis Project.pbix in Power BI Desktop to explore the visuals and filters.
+
