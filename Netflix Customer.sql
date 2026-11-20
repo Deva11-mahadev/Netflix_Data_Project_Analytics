@@ -1,0 +1,70 @@
+use netflix_tv;
+show tables;
+select * from netflix_tv.movie;
+
+# Q1. Total Customer
+select count(*) as total_cust from netflix_tv.movie;
+
+# Q2. Active Customer
+select count(*) as active_cust 
+from netflix_tv.movie 
+where account_status = "Active";
+
+# Q3. Customers by Subsciption Plan
+select subscription_plan, count(*) as customer 
+from netflix_tv.movie
+group by subscription_plan 
+order by customer desc;
+
+# Q4. Revenue by Subsciption Plan
+select subscription_plan, sum(customer_revenue) as Revenue 
+from netflix_tv.movie
+group by subscription_plan 
+order by Revenue desc;
+
+# Q5.  Popular Genres
+select Genre, count(*) as Views 
+from netflix_tv.movie
+group by Genre
+order by Views desc;
+
+# Q6. Country wise customer
+select Country, count(*) as Country_cust 
+from netflix_tv.movie
+group by Country
+order by Country_cust desc;
+
+# Q7. Device Usage
+select Device, count(*) as user 
+from netflix_tv.movie
+group by Device
+order by user desc;
+ 
+# Q8. Average watch hours by plan
+select Subscription_Plan, 
+round(avg(watch_hours),2) as avg_watch_hour
+from netflix_tv.movie
+group by Subscription_Plan
+order by avg_watch_hour desc;
+
+# Q9. Top 10 customer by revenue
+select customer_name, customer_revenue
+from netflix_tv.movie
+order by customer_revenue desc
+limit 10;
+
+# Q10. Movie vs TV Shows
+select content_type, count(*) as total
+from netflix_tv.movie 
+group by content_type;
+
+# Q11. Average Rating by Genre
+select genre, round(avg(avg_rating),2) as avg_rating
+from netflix_tv.movie
+group by genre
+order by avg_rating desc;
+
+# Q12. Account Status
+select account_status, count(*) as Cust
+from netflix_tv.movie
+group by account_status;
