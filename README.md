@@ -42,7 +42,7 @@ git clone https://github.com/Deva11-mahadev/Netflix_Data_Project_Analytics.git
 This project is licensed under the **MIT License** — feel free to fork, star, and use it for your learning or portfolio purposes.
 
 ## 👨‍💻 Author
-
+Devendra Patel
 
 
 Skills: Python | SQL | Power BI | Excel | Data Analysis | EDA
